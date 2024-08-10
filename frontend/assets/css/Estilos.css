@@ -1,0 +1,88 @@
+body {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+#contenido {
+    background-color: rgba(46, 95, 144, 0.425);
+    height: 150vh;
+    margin-top: -20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    padding: 20px;
+    width: 100px;
+}
+
+#hospital-name {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+}
+
+#formulario {
+    background-color: rgba(60, 54, 54, 0.75);
+    color: #ffffff;
+    width: 330px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 30px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+#formulario:hover {
+    background-color: #2c4270;
+    transition: all 1s ease-in-out;
+}
+*/
+#formulario h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.control {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.caja-texto {
+    background-color: #333;
+}
+
+.boton {
+    background-color: #070505;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #841f24;
+    text-decoration: underline;
+}
+
+#help-link {
+    float: right;
+    color: rgb(169, 169, 169);
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+#help-link:hover {
+    text-decoration: underline;
+}
